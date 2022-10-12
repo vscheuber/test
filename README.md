@@ -1,7 +1,5 @@
-# AA-Login :white_check_mark: enabled, :purple_circle: cloud, :yellow_circle: premium
-| Status | Classification | Categories/Tags |
-| ------ | -------------- | --------------- |
-| :white_check_mark: enabled | :purple_circle: cloud<br>:yellow_circle: premium | `Authentication`, `Social Authentication`, `Adaptive`, `Autonomous Access` |
+# AA-Login - `:white_check_mark: enabled`, `:purple_circle: cloud`, `:yellow_circle: premium`
+`Authentication`, `Social Authentication`, `Adaptive`, `Autonomous Access`
 
 Autonomous Access Login
 ## Inner Tree Dependencies (3)
