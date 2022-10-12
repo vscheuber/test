@@ -1,51 +1,58 @@
-# AA-Login - :white_check_mark: `enabled`, :purple_circle: `cloud`, :yellow_circle: `premium`
-`Authentication`, `Social Authentication`, `Adaptive`, `Autonomous Access`
-
-Autonomous Access Login
-## Inner Tree Dependencies (3)
-- AA-Login
-  - iSocialLogin
-  - iAA-LoginRisk
-    - DevicePrint
-    - MFAAutoSelect
-      - MFAWithEmailOTP
-      - MFAWithVoiceOTP
-      - MFAWithSMSOTP
-    - iAA-FraudRisk
-  - ProgressiveProfile
+# FrodoTest - :white_check_mark: `enabled`, :purple_circle: `cloud`
 ## Node Types (9)
 | Count | Type | Classification |
 | -----:| ---- | -------------- |
-| 3 | InnerTreeEvaluatorNode | :green_circle: `standard` |
-| 1 | IncrementLoginCountNode | :green_circle: `standard` |
-| 2 | ScriptedDecisionNode | :green_circle: `standard` |
 | 2 | PageNode | :green_circle: `standard` |
-| 1 | AutonomousAccessResultNode | :purple_circle: `cloud`<br>:yellow_circle: `premium` |
-| 1 | DataStoreDecisionNode | :green_circle: `standard` |
+| 1 | product-Saml2Node | :green_circle: `standard` |
+| 1 | EmailTemplateNode | :green_circle: `standard` |
+| 1 | SocialProviderHandlerNode | :green_circle: `standard` |
+| 1 | ScriptedDecisionNode | :green_circle: `standard` |
+| 1 | IdentityStoreDecisionNode | :purple_circle: `cloud` |
+| 1 | ValidatedUsernameNode | :green_circle: `standard` |
 | 2 | ValidatedPasswordNode | :green_circle: `standard` |
 | 2 | SelectIdPNode | :green_circle: `standard` |
-| 1 | ValidatedUsernameNode | :green_circle: `standard` |
-## Nodes (15)
+## Nodes (12)
 | Display Name | Type | Classification | Id |
 | ------------ | ---- | -------------- | ---|
-| Social Login | InnerTreeEvaluatorNode | :green_circle: `standard` | `00b894da-4193-42cf-a544-1cbee31d06f8` |
-| Count Login | IncrementLoginCountNode | :green_circle: `standard` | `04dd4568-48f4-4264-8539-2e1d119abc7e` |
-| Username? | ScriptedDecisionNode | :green_circle: `standard` | `13054b8b-bc63-4954-8e78-c7febb24711f` |
-| AA Login Risk | InnerTreeEvaluatorNode | :green_circle: `standard` | `1b6f03ae-d694-484c-8a24-a847104cb5cb` |
-| Login Page | PageNode | :green_circle: `standard` | `3d2b3d64-b8fc-416b-b8e0-e05f1502b49e` |
-| AA Record Failure | AutonomousAccessResultNode | :purple_circle: `cloud`<br>:yellow_circle: `premium` | `5e927eec-61d5-4ad0-83ea-8311fcf2c53f` |
-| U/P Login | DataStoreDecisionNode | :green_circle: `standard` | `ca40167b-9a87-4937-9602-d453ea7cf6ef` |
-| Debug | ScriptedDecisionNode | :green_circle: `standard` | `d985eba8-067f-4d62-925c-e9aa5046fad6` |
-| Login Page | PageNode | :green_circle: `standard` | `e41741ae-74bd-4838-84a2-50fdfbaa2637` |
-| Progressive Profile | InnerTreeEvaluatorNode | :green_circle: `standard` | `f750a7a8-cbc4-44b1-889d-b121e774e60d` |
-| Password | ValidatedPasswordNode | :green_circle: `standard` | `ff55eaed-bea4-475d-a7dd-eb7d818fa80d` |
-| Select IDP | SelectIdPNode | :green_circle: `standard` | `af614ad5-233d-4cbb-8f4e-462598b9658a` |
-| Username | ValidatedUsernameNode | :green_circle: `standard` | `2664240c-3a00-49f3-9c37-39ef391eca3c` |
-| Password | ValidatedPasswordNode | :green_circle: `standard` | `f23a331a-966b-460e-aefa-2f033102f53a` |
-| Select IDP | SelectIdPNode | :green_circle: `standard` | `2d6be9fb-1dc8-4dd2-804c-0c5cfb8f5f28` |
-## Scripts (2)
+| Login Page | PageNode | :green_circle: `standard` | `278bf084-9eea-46fe-8ce9-2600dde3b046` |
+| SAML2 Authentication | product-Saml2Node | :green_circle: `standard` | `64157fca-bd5b-4405-a4c8-64ffd98a5461` |
+| Login Page | PageNode | :green_circle: `standard` | `731c5810-020b-45c8-a7fc-3c21903ae2b3` |
+| Email Template Node | EmailTemplateNode | :green_circle: `standard` | `bf153f37-83dd-4f39-aa0c-74135430242e` |
+| Social Login | SocialProviderHandlerNode | :green_circle: `standard` | `d5cc2d52-6ce4-452d-85ea-3a5b50218b67` |
+| Check Username | ScriptedDecisionNode | :green_circle: `standard` | `e2c39477-847a-4df2-9c5d-b449a752638b` |
+| Validate Creds | IdentityStoreDecisionNode | :purple_circle: `cloud` | `fc7e47cd-c679-4211-8e05-a36654f23c67` |
+| Username | ValidatedUsernameNode | :green_circle: `standard` | `7a351800-fb7e-4145-903c-388554747556` |
+| Password | ValidatedPasswordNode | :green_circle: `standard` | `804e6a68-1720-442b-926a-007e90f02782` |
+| Select IDP | SelectIdPNode | :green_circle: `standard` | `228a44d5-fd78-4278-8999-fdd470ea7ebf` |
+| Password | ValidatedPasswordNode | :green_circle: `standard` | `dd16c8d4-baca-4ae0-bcd8-fb98b9040524` |
+| Select IDP | SelectIdPNode | :green_circle: `standard` | `038f9b2a-36b2-489b-9e03-386c9a62ea21` |
+## Themes (1)
+- 63e19668-909f-479e-83d7-be7a01cd8187 NoAccess (FrodoTest)
+## Scripts (9)
 | Name | Language | Type | Id |
 | ---- | -------- | ---- | ---|
+| Normalized Profile to Managed User | Groovy | Social Idp Profile Transformation | `58c824ae-84ed-4724-82cd-db128fc3f6c` |
 | Check Username | JavaSscript | Authentication Tree Decision Node | `739bdc48-fd24-4c52-b353-88706d75558a` |
-| debug | JavaSscript | Authentication Tree Decision Node | `3cb43516-ae69-433a-8787-501d45db14e9` |
-
+| Google Profile Normalization | Groovy | Social Idp Profile Transformation | `58d29080-4563-480b-89bb-1e7719776a21` |
+| GitHub Profile Normalization | Groovy | Social Idp Profile Transformation | `23143919-6b78-40c3-b25e-beca19b229e0` |
+| Facebook Profile Normalization | Groovy | Social Idp Profile Transformation | `bae1d54a-e97d-4997-aa5d-c027f21af82c` |
+| Apple Profile Normalization | Groovy | Social Idp Profile Transformation | `484e6246-dbc6-4288-97e6-54e55431402e` |
+| Okta Profile Normalization | Groovy | Social Idp Profile Transformation | `6325cf19-a49b-471e-8d26-7e4df76df0e2` |
+| ADFS Profile Normalization (JS) | JavaSscript | Social Idp Profile Transformation | `dbe0bf9a-72aa-49d5-8483-9db147985a47` |
+| Microsoft Profile Normalization | Groovy | Social Idp Profile Transformation | `73cecbfc-dad0-4395-be6a-6858ee3a80e5` |
+## Email Templates (1)
+- welcome Welcome - Your account has been created
+## Social Identity Providers (8)
+- google googleConfig
+- github oauth2Config
+- facebook oauth2Config
+- apple-stoyan appleConfig
+- apple_web appleConfig
+- okta-trial-5735851 oidcConfig
+- adfs oidcConfig
+- azure microsoftConfig
+## SAML2 Entity Providers (2)
+- iSPAzure (hosted SP)
+- urn:federation:MicrosoftOnline (remote SP)
+## SAML2 Circles Of Trust (1)
+- AzureCOT
