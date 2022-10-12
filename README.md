@@ -18,15 +18,17 @@ Authentication, Social Authentication, Adaptive, Autonomous Access
     - iAA-FraudRisk
   - ProgressiveProfile
 ## Node Types (9)
-- 3 InnerTreeEvaluatorNode (:green_circle: standard)
-- 1 IncrementLoginCountNode (:green_circle: standard)
-- 2 ScriptedDecisionNode (:green_circle: standard)
-- 2 PageNode (:green_circle: standard)
-- 1 AutonomousAccessResultNode (:purple_circle: cloud, :yellow_circle: premium)
-- 1 DataStoreDecisionNode (:green_circle: standard)
-- 2 ValidatedPasswordNode (:green_circle: standard)
-- 2 SelectIdPNode (:green_circle: standard)
-- 1 ValidatedUsernameNode (:green_circle: standard)
+| Count | Type | Classification |
+| -----:| ---- | -------------- |
+| 3 | InnerTreeEvaluatorNode | :green_circle: standard |
+| 1 | IncrementLoginCountNode | :green_circle: standard |
+| 2 | ScriptedDecisionNode | :green_circle: standard |
+| 2 | PageNode | :green_circle: standard |
+| 1 | AutonomousAccessResultNode | :purple_circle: cloud, :yellow_circle: premium |
+| 1 | DataStoreDecisionNode | :green_circle: standard |
+| 2 | ValidatedPasswordNode | :green_circle: standard |
+| 2 | SelectIdPNode | :green_circle: standard |
+| 1 | ValidatedUsernameNode | :green_circle: standard |
 ## Nodes (15)- 00b894da-4193-42cf-a544-1cbee31d06f8 (:green_circle: standard) InnerTreeEvaluatorNode - Social Login
 - 04dd4568-48f4-4264-8539-2e1d119abc7e (:green_circle: standard) IncrementLoginCountNode - Count Login
 - 13054b8b-bc63-4954-8e78-c7febb24711f (:green_circle: standard) ScriptedDecisionNode - Username?
