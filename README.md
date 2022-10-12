@@ -29,7 +29,7 @@ Autonomous Access Login
 | Display Name | Type | Classification | Id |
 | ------------ | ---- | -------------- | ---|
 | Social Login | InnerTreeEvaluatorNode | :green_circle: `standard` | `00b894da-4193-42cf-a544-1cbee31d06f8` |
-| Count Login | IncrementLoginCountNode | :green_circle: `standard` | <pre>04dd4568-48f4-4264-8539-2e1d119abc7e</pre> |
+| Count Login | IncrementLoginCountNode | :green_circle: `standard` |<pre>04dd4568-48f4-4264-8539-2e1d119abc7e</pre>|
 | Username? | ScriptedDecisionNode | :green_circle: `standard` | 13054b8b-bc63-4954-8e78-c7febb24711f |
 | AA Login Risk | InnerTreeEvaluatorNode | :green_circle: `standard` | 1b6f03ae-d694-484c-8a24-a847104cb5cb |
 | Login Page | PageNode | :green_circle: `standard` | 3d2b3d64-b8fc-416b-b8e0-e05f1502b49e |
