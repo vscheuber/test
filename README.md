@@ -44,6 +44,8 @@ Autonomous Access Login
 | Password | ValidatedPasswordNode | :green_circle: `standard` | `f23a331a-966b-460e-aefa-2f033102f53a` |
 | Select IDP | SelectIdPNode | :green_circle: `standard` | `2d6be9fb-1dc8-4dd2-804c-0c5cfb8f5f28` |
 ## Scripts (2)
-- 739bdc48-fd24-4c52-b353-88706d75558a AUTHENTICATION_TREE_DECISION_NODE - Check Username
-- 3cb43516-ae69-433a-8787-501d45db14e9 AUTHENTICATION_TREE_DECISION_NODE - debug
+| Name | Language | Type | Id |
+| ---- | -------- | ---- | ---|
+| Check Username | JavaSscript | Authentication Tree Decision Node | `739bdc48-fd24-4c52-b353-88706d75558a` |
+| debug | JavaSscript | Authentication Tree Decision Node | `3cb43516-ae69-433a-8787-501d45db14e9` |
 
