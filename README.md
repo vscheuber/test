@@ -5,7 +5,7 @@ Autonomous Access Login
 ## Classification
 :purple_circle: cloud, :yellow_circle: premium
 ## Categories/Tags
-Authentication, Social Authentication, Adaptive, Autonomous Access
+`Authentication`, `Social Authentication`, `Adaptive`, `Autonomous Access`
 ## Inner Tree Dependencies (3)
 - AA-Login
   - iSocialLogin
