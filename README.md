@@ -24,7 +24,7 @@ Authentication, Social Authentication, Adaptive, Autonomous Access
 | 1 | IncrementLoginCountNode | :green_circle: standard |
 | 2 | ScriptedDecisionNode | :green_circle: standard |
 | 2 | PageNode | :green_circle: standard |
-| 1 | AutonomousAccessResultNode | :purple_circle: cloud, :yellow_circle: premium |
+| 1 | AutonomousAccessResultNode | :purple_circle: cloud<br> :yellow_circle: premium |
 | 1 | DataStoreDecisionNode | :green_circle: standard |
 | 2 | ValidatedPasswordNode | :green_circle: standard |
 | 2 | SelectIdPNode | :green_circle: standard |
