@@ -37,7 +37,7 @@ Autonomous Access Login
 | Username? | ScriptedDecisionNode | :green_circle: standard | 13054b8b-bc63-4954-8e78-c7febb24711f |
 | AA Login Risk | InnerTreeEvaluatorNode | :green_circle: standard | 1b6f03ae-d694-484c-8a24-a847104cb5cb |
 | Login Page | PageNode | :green_circle: standard | 3d2b3d64-b8fc-416b-b8e0-e05f1502b49e |
-| AA Record Failure | AutonomousAccessResultNode | :purple_circle: cloud, :yellow_circle: premium | 5e927eec-61d5-4ad0-83ea-8311fcf2c53f |
+| AA Record Failure | AutonomousAccessResultNode | :purple_circle: cloud<br>:yellow_circle: premium | 5e927eec-61d5-4ad0-83ea-8311fcf2c53f |
 | U/P Login | DataStoreDecisionNode | :green_circle: standard | ca40167b-9a87-4937-9602-d453ea7cf6ef |
 | Debug | ScriptedDecisionNode | :green_circle: standard | d985eba8-067f-4d62-925c-e9aa5046fad6 |
 | Login Page | PageNode | :green_circle: standard | e41741ae-74bd-4838-84a2-50fdfbaa2637 |
