@@ -47,14 +47,16 @@
 | ------------ | --------- | ------- | ---|
 | welcome | en | Your account has been created | `welcome` |
 ## Social Identity Providers (8)
-- google googleConfig
-- github oauth2Config
-- facebook oauth2Config
-- apple-stoyan appleConfig
-- apple_web appleConfig
-- okta-trial-5735851 oidcConfig
-- adfs oidcConfig
-- azure microsoftConfig
+| Name/Id | Status | Type |
+| ------- | ------ | ---- |
+| google | :white_check_mark: `enabled` | `Client configuration for Google.` |
+| github | :white_check_mark: `enabled` | `Client configuration for providers that implement the OAuth2 specification.` |
+| facebook | :white_check_mark: `enabled` | `Client configuration for providers that implement the OAuth2 specification.` |
+| apple-stoyan | :white_check_mark: `enabled` | `Client configuration for Apple.` |
+| apple_web | :white_check_mark: `enabled` | `Client configuration for Apple.` |
+| okta-trial-5735851 | :white_check_mark: `enabled` | `Client configuration for providers that implement the OpenID Connect specification.` |
+| adfs | :white_check_mark: `enabled` | `Client configuration for providers that implement the OpenID Connect specification.` |
+| azure | :white_check_mark: `enabled` | `Client configuration for Microsoft.` |
 ## SAML2 Entity Providers (2)
 - iSPAzure (hosted SP)
 - urn:federation:MicrosoftOnline (remote SP)
