@@ -47,16 +47,16 @@
 | ------------ | --------- | ------- | ---|
 | welcome | en | Your account has been created | `welcome` |
 ## Social Identity Providers (8)
-| Name/Id | Status | Type |
-| ------- | ------ | ---- |
-| google | :white_check_mark: `enabled` | Client configuration for Google. |
-| github | :white_check_mark: `enabled` | Client configuration for providers that implement the OAuth2 specification. |
-| facebook | :white_check_mark: `enabled` | Client configuration for providers that implement the OAuth2 specification. |
-| apple-stoyan | :white_check_mark: `enabled` | Client configuration for Apple. |
-| apple_web | :white_check_mark: `enabled` | Client configuration for Apple. |
-| okta-trial-5735851 | :white_check_mark: `enabled` | Client configuration for providers that implement the OpenID Connect specification. |
-| adfs | :white_check_mark: `enabled` | Client configuration for providers that implement the OpenID Connect specification. |
-| azure | :white_check_mark: `enabled` | Client configuration for Microsoft. |
+| Name/Id | Client Id | Status | Type |
+| ------- | --------- | ------ | ---- |
+| google | 297338177925-mho17cgnm540s2gre8h27feb6sbs1msd.apps.googleusercontent.com | :white_check_mark: `enabled` | Client configuration for Google. |
+| github | bdae6d141d4dcf95a630 | :white_check_mark: `enabled` | Client configuration for providers that implement the OAuth2 specification. |
+| facebook | 123741918345526 | :white_check_mark: `enabled` | Client configuration for providers that implement the OAuth2 specification. |
+| apple-stoyan | com.forgerock.ios.sdk.social.service | :white_check_mark: `enabled` | Client configuration for Apple. |
+| apple_web | io.scheuber.idc.signinWithApple.service | :white_check_mark: `enabled` | Client configuration for Apple. |
+| okta-trial-5735851 | 0oa13r2cp29Rynmyw697 | :white_check_mark: `enabled` | Client configuration for providers that implement the OpenID Connect specification. |
+| adfs | aa9a179e-cdba-4db8-8477-3d1069d5ec04 | :white_check_mark: `enabled` | Client configuration for providers that implement the OpenID Connect specification. |
+| azure | c42a3dc8-f276-496b-a722-269f131cc21c | :white_check_mark: `enabled` | Client configuration for Microsoft. |
 ## SAML2 Entity Providers (2)
 - iSPAzure (hosted SP)
 - urn:federation:MicrosoftOnline (remote SP)
