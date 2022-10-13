@@ -58,7 +58,9 @@
 | adfs | :white_check_mark: `enabled` | Client configuration for providers that implement the OpenID Connect specification. |
 | azure | :white_check_mark: `enabled` | Client configuration for Microsoft. |
 ## SAML2 Entity Providers (2)
-- iSPAzure (hosted SP)
-- urn:federation:MicrosoftOnline (remote SP)
+| Entity Id | Location | Role(s) |
+| --------- | -------- | ------- |
+| aVNQQXp1cmU | hosted | SP |
+| dXJuOmZlZGVyYXRpb246TWljcm9zb2Z0T25saW5l | remote | SP |
 ## SAML2 Circles Of Trust (1)
 - AzureCOT
