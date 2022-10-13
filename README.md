@@ -49,14 +49,14 @@
 ## Social Identity Providers (8)
 | Name/Id | Status | Type |
 | ------- | ------ | ---- |
-| google | :white_check_mark: `enabled` | `Client configuration for Google.` |
-| github | :white_check_mark: `enabled` | `Client configuration for providers that implement the OAuth2 specification.` |
-| facebook | :white_check_mark: `enabled` | `Client configuration for providers that implement the OAuth2 specification.` |
-| apple-stoyan | :white_check_mark: `enabled` | `Client configuration for Apple.` |
-| apple_web | :white_check_mark: `enabled` | `Client configuration for Apple.` |
-| okta-trial-5735851 | :white_check_mark: `enabled` | `Client configuration for providers that implement the OpenID Connect specification.` |
-| adfs | :white_check_mark: `enabled` | `Client configuration for providers that implement the OpenID Connect specification.` |
-| azure | :white_check_mark: `enabled` | `Client configuration for Microsoft.` |
+| google | :white_check_mark: `enabled` | Client configuration for Google. |
+| github | :white_check_mark: `enabled` | Client configuration for providers that implement the OAuth2 specification. |
+| facebook | :white_check_mark: `enabled` | Client configuration for providers that implement the OAuth2 specification. |
+| apple-stoyan | :white_check_mark: `enabled` | Client configuration for Apple. |
+| apple_web | :white_check_mark: `enabled` | Client configuration for Apple. |
+| okta-trial-5735851 | :white_check_mark: `enabled` | Client configuration for providers that implement the OpenID Connect specification. |
+| adfs | :white_check_mark: `enabled` | Client configuration for providers that implement the OpenID Connect specification. |
+| azure | :white_check_mark: `enabled` | Client configuration for Microsoft. |
 ## SAML2 Entity Providers (2)
 - iSPAzure (hosted SP)
 - urn:federation:MicrosoftOnline (remote SP)
