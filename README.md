@@ -63,4 +63,6 @@
 | iSPAzure | hosted | SP |
 | urn:federation:MicrosoftOnline | remote | SP |
 ## SAML2 Circles Of Trust (1)
-- AzureCOT
+| Name/Id | Status | Trusted Providers |
+| ------- | ------ | ----------------- |
+- | AzureCOT | :white_check_mark: `active` | iSPAzure<br>urn:federation:MicrosoftOnline<br>https://sts.windows.net/711ffa9c-5972-4713-ace3-688c9732614a/<br>SPAzure<br>https://idc.scheuber.io/am/saml2/IDPAzure |
