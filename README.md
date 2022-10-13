@@ -43,7 +43,9 @@
 | ADFS Profile Normalization (JS) | JavaSscript | Social Idp Profile Transformation | `dbe0bf9a-72aa-49d5-8483-9db147985a47` |
 | Microsoft Profile Normalization | Groovy | Social Idp Profile Transformation | `73cecbfc-dad0-4395-be6a-6858ee3a80e5` |
 ## Email Templates (1)
-- welcome Welcome - Your account has been created
+| Display Name | Locale(s) | Subject | Id |
+| ------------ | --------- | ------- | ---|
+| welcome | en | Your account has been created | `welcome` |
 ## Social Identity Providers (8)
 - google googleConfig
 - github oauth2Config
