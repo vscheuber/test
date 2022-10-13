@@ -29,7 +29,7 @@
 ## Themes (1)
 | Name | Linked Journey(s) | Id |
 | ---- | ----------------- | ---|
-- | NoAccess | FrodoTest | `63e19668-909f-479e-83d7-be7a01cd8187` |
+| NoAccess | FrodoTest | `63e19668-909f-479e-83d7-be7a01cd8187` |
 ## Scripts (9)
 | Name | Language | Type | Id |
 | ---- | -------- | ---- | ---|
