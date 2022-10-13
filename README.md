@@ -28,7 +28,7 @@
 | Select IDP | SelectIdPNode | :green_circle: `standard` | `038f9b2a-36b2-489b-9e03-386c9a62ea21` |
 ## Themes (1)
 | Name | Linked Journey(s) | Id |
-| ---- | ----------------- | ---|
+| ------------------------ | ----------------- | ---|
 | NoAccess | FrodoTest | `63e19668-909f-479e-83d7-be7a01cd8187` |
 ## Scripts (9)
 | Name | Language | Type | Id |
