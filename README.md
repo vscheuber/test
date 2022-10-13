@@ -60,7 +60,7 @@
 ## SAML2 Entity Providers (2)
 | Entity Id | Location | Role(s) |
 | --------- | -------- | ------- |
-| aVNQQXp1cmU | hosted | SP |
-| dXJuOmZlZGVyYXRpb246TWljcm9zb2Z0T25saW5l | remote | SP |
+| iSPAzure | hosted | SP |
+| urn:federation:MicrosoftOnline | remote | SP |
 ## SAML2 Circles Of Trust (1)
 - AzureCOT
