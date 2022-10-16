@@ -3,7 +3,7 @@
 
 Frodo test journey utilizing a variety of nodes and dependencies to test support for complex journeys.
 
-<img src="./FrodoTest.png" width="100%"/>
+![FrodoTest](./FrodoTest.png)
 
 ## Node Types (12)
 | Count | Type | Classification |
