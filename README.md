@@ -1,6 +1,9 @@
-# FrodoTest - :white_check_mark: `enabled`, :purple_circle: `cloud`
+# FrodoTest - :white_check_mark: `enabled`, :purple_circle: `cloud`, :yellow_circle: `premium`
+`Frodo`, `Prototype`
 
-## Node Types (9)
+Frodo test journey utilizing a variety of nodes and dependencies to test support for complex journeys.
+
+## Node Types (12)
 | Count | Type | Classification |
 | -----:| ---- | -------------- |
 | 2 | PageNode | :green_circle: `standard` |
@@ -9,10 +12,13 @@
 | 1 | SocialProviderHandlerNode | :green_circle: `standard` |
 | 1 | ScriptedDecisionNode | :green_circle: `standard` |
 | 1 | IdentityStoreDecisionNode | :purple_circle: `cloud` |
+| 1 | AutonomousAccessSignalNode | :purple_circle: `cloud`<br>:yellow_circle: `premium` |
+| 1 | AutonomousAccessDecisionNode | :purple_circle: `cloud`<br>:yellow_circle: `premium` |
+| 2 | AutonomousAccessResultNode | :purple_circle: `cloud`<br>:yellow_circle: `premium` |
 | 1 | ValidatedUsernameNode | :green_circle: `standard` |
 | 2 | ValidatedPasswordNode | :green_circle: `standard` |
 | 2 | SelectIdPNode | :green_circle: `standard` |
-## Nodes (12)
+## Nodes (16)
 | Display Name | Type | Classification | Id |
 | ------------ | ---- | -------------- | ---|
 | Login Page | PageNode | :green_circle: `standard` | `278bf084-9eea-46fe-8ce9-2600dde3b046` |
@@ -22,6 +28,10 @@
 | Social Login | SocialProviderHandlerNode | :green_circle: `standard` | `d5cc2d52-6ce4-452d-85ea-3a5b50218b67` |
 | Check Username | ScriptedDecisionNode | :green_circle: `standard` | `e2c39477-847a-4df2-9c5d-b449a752638b` |
 | Validate Creds | IdentityStoreDecisionNode | :purple_circle: `cloud` | `fc7e47cd-c679-4211-8e05-a36654f23c67` |
+| AA Signal | AutonomousAccessSignalNode | :purple_circle: `cloud`<br>:yellow_circle: `premium` | `a8e23316-e47a-48ea-9bb0-20772aa2acda` |
+| AA Decision | AutonomousAccessDecisionNode | :purple_circle: `cloud`<br>:yellow_circle: `premium` | `fd490c13-58a4-4f5d-9ff3-302b42793c39` |
+| AA Result | AutonomousAccessResultNode | :purple_circle: `cloud`<br>:yellow_circle: `premium` | `3db2dfb3-ef88-4fdd-b4e1-f2cfb29cfeb5` |
+| AA Result | AutonomousAccessResultNode | :purple_circle: `cloud`<br>:yellow_circle: `premium` | `e918d376-a195-46da-aa9c-bda7612b40df` |
 | Username | ValidatedUsernameNode | :green_circle: `standard` | `7a351800-fb7e-4145-903c-388554747556` |
 | Password | ValidatedPasswordNode | :green_circle: `standard` | `804e6a68-1720-442b-926a-007e90f02782` |
 | Select IDP | SelectIdPNode | :green_circle: `standard` | `228a44d5-fd78-4278-8999-fdd470ea7ebf` |
